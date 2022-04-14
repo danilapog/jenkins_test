@@ -1,5 +1,4 @@
 ---
----
 name: Release Chart on S3 repo
 
 on:    
