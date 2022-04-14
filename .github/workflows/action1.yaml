@@ -1,11 +1,10 @@
 ---
 name: flowtest
 
-on:    
+'on':
+  pull_request:
   push:
-    branches:
-      - master
-      
+
 jobs:
   build:
     name: Chart release
