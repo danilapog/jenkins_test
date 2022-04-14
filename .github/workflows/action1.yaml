@@ -1,9 +1,10 @@
 ---
 name: flowtest
 
-'on':
-  pull_request:
-  push:
+on:
+    push:
+        branches:
+            - master
 
 jobs:
   build:
